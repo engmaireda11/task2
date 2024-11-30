@@ -1,0 +1,50 @@
+div{
+    display: inline-block;
+    width: 70%;
+    float: left;
+    padding: 30px; 
+    height: 400PX;
+
+}
+p,h1{
+   color: white;
+    line-height: 1.5;
+}
+.container{
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+   
+}
+.clear{
+    clear: both;
+}
+.sedans{
+    background-color: rgb(226, 133, 37);
+    border-radius:10px 0 0 10px
+}
+.SUVs{
+   
+    background-color: rgb(1, 105, 114) ;
+}
+.LUXURY{
+    background-color: rgb(0, 64, 63) ;
+    border-radius: 0 10px 10px 0;
+}
+button{
+    border-radius: 30px;
+    padding: 16px 33px; 
+    border: none;
+    margin-top: 65px;
+    font-weight: bold;
+    background-color: white;
+}
+.sedans button{
+    color:  rgb(226, 133, 37);
+}
+.SUVs button{
+    color: rgb(1, 105, 114) ; 
+}
+.LUXURY button{ 
+    color: rgb(0, 64, 63)  ; 
+}
